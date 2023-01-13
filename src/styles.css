@@ -1,1 +1,83 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Droid Sans";
+}
+.title {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 3rem 0;
+  color: white;
+}
+.cont_ingresos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 4rem;
+}
+.content_reset {
+  padding: 2rem;
+}
+.padding_card {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 1rem;
+}
+.form_gastos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cont_resul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 5px;
+  padding: 10px;
+  background: darkslategrey;
+  color: white;
+  height: 2rem;
+  border-radius: 5px;
+}
+.history {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5px 5px;
+  padding: 10px;
+  background: darkslategrey;
+  color: white;
+  height: 2rem;
+  border-radius: 5px;
+}
+.scrollY {
+  height: 64vh;
+  overflow-y: scroll;
+}
+.subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+}
+.enlace_form {
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.enlace_form:hover {
+  color: darkslategrey;
+}
+.parrafo {
+  text-align: right;
+  color: cadetblue;
+  text-transform: uppercase;
+}

@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+      <div class="card cont_ingresos">
+        <h1 class="subtitle">Checkin</h1>
+        <form>
+          <form #formCheckin="ngForm" (ngSubmit)="handleCheckin(formCheckin)" class="form_gastos">
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" ngModel placeholder="Ingresa tu email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" name="password" ngModel placeholder="Ingresa tu contraseña">
+            </div>
+            <button class="btn btn-primary">Ingresar</button>
+            <a class="enlace_form" (click)="goLogin()">Volver</a>
+          </form>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
